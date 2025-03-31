@@ -64,8 +64,6 @@ function atualizartabela(){
         botaoEditar.textContent = "Editar";
         botaoEditar.type = "button";
         botaoEditar.onclick = (function () {
-
-            let aluno = alunos[index];
         
             document.getElementById("nome").value = aluno.nome;
             document.getElementById("idade").value = aluno.idade;
