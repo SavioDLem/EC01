@@ -74,7 +74,7 @@ function atualizartabela(){
             
             atualizartabela();
 
-            alert("Aluno editado");
+            alert("Editando aluno");
         
         })
         acoes.appendChild(botaoEditar);
